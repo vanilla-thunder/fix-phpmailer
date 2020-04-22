@@ -1,0 +1,21 @@
+{
+  "name": "vanilla-thunder/fix-phpmailer",
+  "description": "Fix for OXID eShop: PHPMailer bug #751",
+  "type": "oxideshop-module",
+  "keywords": [
+    "oxid",
+    "modules",
+    "eShop",
+    "phpmailer",
+    "body",
+    "corrupt"
+  ],
+  "require": {
+    "oxid-esales/oxideshop-ce": "*"
+  },
+  "extra": {
+    "oxideshop": {
+      "target-directory": "vt/fix-phpmailer"
+    }
+  }
+}
